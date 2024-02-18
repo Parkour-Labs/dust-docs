@@ -1,1 +1,4 @@
-site_name: My Docs
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Qinhuai Documentations
+theme:
+  name: material
