@@ -1,4 +1,62 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: Qinhuai Documentations
+site_name: ParkourLabs
 theme:
   name: material
+  components:
+    title: false
+  features:
+    - content.footnote.tooltips
+    - content.code.copy
+    - navigation.expand
+  palette:
+    primary: black
+  icon:
+    repo: Parkour-Labs/dust/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+plugins:
+  - blog
+  - search
+
+nav:
+  - index.md
+  - Docs:
+      - Quick Start Guide:
+          - Installation: docs/qs/1-installation.md
+          - Define a Model: docs/qs/2-define-a-model.md
+          - CRUD: docs/qs/3-crud.md
+          - React to Changes: docs/qs/4-react-to-changes.md
+  - Blogs:
+      - blog/index.md
