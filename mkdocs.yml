@@ -58,5 +58,15 @@ nav:
           - Define a Model: docs/qs/2-define-a-model.md
           - CRUD: docs/qs/3-crud.md
           - React to Changes: docs/qs/4-react-to-changes.md
+      - Documentation:
+          - Introduction: docs/docs/1.introduction.md
+          - Fields: docs/docs/2.fields.md
+          - Links: docs/docs/3.links.md
+          - Annotations: docs/docs/4.annotations.md
+      - Philosophy:
+          - Think in a graph way: docs/philosophy/1.think_in_a_graph_way.md
+          - State Management Theory: docs/philosophy/2.state_management_theory.md
+          - Data Format: docs/philosophy/3.data_format.md
+          - Sync: docs/philosophy/4.sync.md
   - Blogs:
       - blog/index.md

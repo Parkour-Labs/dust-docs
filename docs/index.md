@@ -1,5 +1,7 @@
 # Welcome to `dust`
 
+[Join our Telegram Group](https://t.me/dustdb)
+
 `dust` is a local-first, synchronizable (_coming soon_) **database** and
 **state management** solution built for Flutter developers. It is developed
 while we are building a cross-platform handwriting note-taking app called
@@ -9,6 +11,12 @@ to [solve the frustrations](./blog/posts/1.md) that we faced when we were
 building dynote.
 
 **Supported Platforms**: iOS, Android, MacOS, Linux, Windows
+
+> **WARNING**: what's shown in this documentation right now is not the API
+> that dust is going to have. We are currently working on migrating `dust` to
+> adopt a [freezed](https://github.com/rrousselGit/freezed)-style API. Details
+> of this work can be seen [here](https://github.com/Parkour-Labs/dust/issues/5).
+> We expect this to be done by Feb 25, 2024.
 
 ## Fearless Local First
 
